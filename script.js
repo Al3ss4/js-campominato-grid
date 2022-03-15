@@ -31,7 +31,13 @@ for(let i = 0; i < totalCells; i++){
 
 // inserisco all'interno delle celle i numeri, +1 lo inserisco così da non farlo partire da 0 ma da 1
     cell.innerText = (i +1);
-    }
+
+
+// inserisco una funzione che mi permette di far cambiare il bg delle celle al click
+    cell.addEventListener('click', function(event) {
+        cell.classList.toggle('bg-celeste')
+    })
+}
 
 
 
