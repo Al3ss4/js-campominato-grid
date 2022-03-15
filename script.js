@@ -1,6 +1,12 @@
 console.log('JS OK!')
 
 
+// Consegna
+// creare una griglia di gioco quadrata, in cui ogni cella contiene un numero tra quelli compresi in un range compreso tra 1 e 100
+// Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro.
+
+
+
 //creo una griglia 10 x 10
 const grid = document.getElementById ('grid');
 
@@ -38,6 +44,8 @@ for(let i = 0; i < totalCells; i++){
         cell.classList.toggle('bg-celeste')
     })
 }
+
+
 
 
 
