@@ -26,11 +26,24 @@
   }
 
   .cell {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 2px solid white;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .cell.hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+  }
+
+  .cell.medium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+  }
+  
+  .cell.easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
   }
